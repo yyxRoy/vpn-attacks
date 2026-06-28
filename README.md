@@ -6,6 +6,9 @@ This repository contains the research artifact for our paper accepted to **IEEE 
 
 The codebase includes the attack implementations, supporting scripts, and reproduction instructions used in our evaluation of session manipulation attacks on VPN-protected TCP and UDP sessions. In particular, it demonstrates how an off-path attacker sharing the same VPN server as a victim can infer transport-layer state and manipulate an active session under vulnerable deployment conditions.
 
+Public CVE references for the disclosed vulnerabilities are available in
+[advisories/](./advisories/).
+
 ## Disclaimer and Responsible Use
 
 The materials in this repository are provided to enable reproducibility of our evaluation and to assist researchers in performing defensive testing. Use these materials only for authorized security research and defensive verification on systems you own or have explicit permission to test. As the code in this repository demonstrates real attack techniques against VPN-protected sessions, do not use it to attack third-party systems, accounts, devices, or infrastructure without clear written permission. The authors performed all experiments on systems owned by the project team or used with informed consent. By running these tools, you agree to use them only for defensive research, reproduction of our results, or self-testing in authorized environments.
